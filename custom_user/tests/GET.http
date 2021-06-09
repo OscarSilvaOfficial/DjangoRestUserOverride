@@ -1,0 +1,5 @@
+@token=JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6Im9zY2Fya2FrYTIyMkBnbWFpbC5jb20iLCJleHAiOjE2MjM4MDY4ODksImVtYWlsIjoib3NjYXJrYWthMjIyQGdtYWlsLmNvbSJ9.uGO9B-EgQm1QH3jb1JCaA95PBZTylcmUW5VbY55xkfk
+
+GET http://localhost:8000/users HTTP/1.1
+content-type: application/json
+Authorization: {{token}}

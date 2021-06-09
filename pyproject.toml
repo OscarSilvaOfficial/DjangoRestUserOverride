@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "djangorest"
+version = "0.1.0"
+description = ""
+authors = ["OscarSilvaOfficial <oscarkaka222@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+djangorestframework = "^3.12.4"
+Markdown = "^3.3.4"
+django-filter = "^2.4.0"
+djangorestframework-jwt = "^1.11.0"
+
+[tool.poetry.dev-dependencies]
+yapf = "^0.31.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
