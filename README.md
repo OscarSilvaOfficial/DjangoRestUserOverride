@@ -1,0 +1,1 @@
+# Projeto django com o model user sobrescrevido
