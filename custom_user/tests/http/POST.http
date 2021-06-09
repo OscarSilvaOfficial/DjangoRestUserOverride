@@ -5,9 +5,9 @@ content-type: application/json
 Authorization: {{token}}
 
 {
-  "username": "teste",
-  "password": "teste",
-  "email": "teste@gmail.com",
+  "username": "eu",
+  "password": "eu",
+  "email": "eu@gmail.com",
   "first_name": "teste",
   "last_name": "teste",
   "is_active": true

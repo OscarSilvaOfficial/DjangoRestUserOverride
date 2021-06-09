@@ -1,16 +1,16 @@
 @token=JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6Im9zY2Fya2FrYTIyMkBnbWFpbC5jb20iLCJleHAiOjE2MjM4MDY4ODksImVtYWlsIjoib3NjYXJrYWthMjIyQGdtYWlsLmNvbSJ9.uGO9B-EgQm1QH3jb1JCaA95PBZTylcmUW5VbY55xkfk
 
-PATCH http://localhost:8000/users/3/ HTTP/1.1
+PATCH http://localhost:8000/users/4/ HTTP/1.1
 content-type: application/json
 Authorization: {{token}}
 
 {
-  "username": "teste",
-  "password": "teste",
+  "username": "eu",
+  "password": "eu",
   "last_login": "2021-06-09T00:48:41.123879Z",
-  "email": "teste@gmail.com",
-  "first_name": "teste",
-  "last_name": "teste",
+  "email": "eu@gmail.com",
+  "first_name": "eu",
+  "last_name": "eu",
   "is_active": true,
   "is_superuser": true,
   "is_trusty": true,
